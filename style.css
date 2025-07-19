@@ -1,0 +1,56 @@
+     h1{
+            color: red;
+        }
+        p{
+            color: orange;
+        }
+        body{
+            background-color: purple;
+        }
+        .purple-text{
+            background-color: plum;
+        }
+
+        .bold{
+            font-weight: bold;
+        }
+
+        #purple{
+            background-color: palegreen;
+            font-weight: bold;
+        }
+        .purple-text:hover{
+            background-color: pink;
+        }
+        /* a[href="https://4kwallpapers.com/images/wallpapers/sung-jinwoo-solo-2732x2732-17972.jpg"]{
+            border: 2px solid brown;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        } */
+        [type="hello"]{
+             border: 2px solid brown;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        p::first-letter{
+            font-size: 150%;
+            color: aqua;
+        }
+
+        a:visited{
+            color: pink;
+        }
+        a:hover{
+            font-size: 150%;
+        }
+
+        p.purple-text{
+            border-style: solid;
+            border-width: 2px;
+            border-color: blueviolet;
+            padding: 1rem;
+        }
